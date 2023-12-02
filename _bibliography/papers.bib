@@ -1,84 +1,266 @@
----
----
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% library.bib
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-@string{aps = {American Physical Society,}}
+% journals
+@string{ijrr  = "Intl. J. of Robotics Research"}
+@string{tro   = "{IEEE} Trans. Robotics"}
+@string{tra   = "{IEEE} Trans. Robotics and Automation"}
+@string{ras   = "J. of Robotics and Autonomous Systems"}
+@string{jfr   = "J. of Field Robotics"}
+@string{fsr   = "Field and Service Robotics"}
+@string{ar    = "Autonomous Robots"}
+@string{ieee  = "Proc. of the IEEE"}
+@string{ac    = "{IEEE} Trans. on Automatic Control"}
+@string{joe   = "Journal of Oceanic Engineering"}
+@string{ijcv  = "International Journal of Computer Vision"}
+@string{jbe   = "{ASME} Journal of Basic Engineering"}
+@string{cviu  = "Computer Vision and Image Understanding"}
+@string{ram   = "{IEEE} Robotics \& Automation Magazine"}
+@string{pami  = "{IEEE} Trans. Pattern Anal. Machine Intell."}
+@string{tac   = "{IEEE} Trans. on Automatic Control"}
+@string{mtsj  = "Marine Technology Society Journal"}
+@string{isr   = "Intelligent Service Robotics"}
+@string{tip   = "{IEEE} Trans. on Image Processing"}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+% conferences ml
+@string{iclr = "International Conference on Learning Representations (ICLR)"}
+@string{icml = "International Conference on Machine Learning (ICML)"}
+@string{neurips = "Advances in Neural Information Processing Systems (NeurIPS)"}
+@string{ijcai = "Intl. Joint Conf. on Artificial Intelligence"}
+@string{aaai = "AAAI Conf. on Artificial Intelligence"}
+@string{aistats = "Artificial Intelligence and Statistics (AISTATS)"}
+@string{naacl = "Proc. North American Chapter of the Association for Computational Linguistics (NAACL)"}
+@string{acl = "Annual Conference of the Association for Computational Linguistics (ACL)"}
+@string{emnlp = "Empirical Methods in Natural Language Processing (EMNLP)"}
+@string{corl = "Conference on Robot Learning (CoRL)"}
+@string{rss = "Robotics: Science and Systems (RSS)"}
+@string{icra = "IEEE Intl. Conf. on Robotics and Automation (ICRA)"}
+@string{iros = "IEEE/RSJ Intl. Conf. on Intelligent Robots and Systems (IROS)"}
+@string{iccv = "Intl. Conf. on Computer Vision (ICCV)"}
+@string{cvpr = "Proc. {IEEE} Int. Conf. Computer Vision and Pattern Recognition"}
+@string{eccv = "Eur. Conf. on Computer Vision (ECCV)"}
+@string{siggraph = "SIGGRAPH"}
+
+% conferences
+@string{isrr  = "Proc. of the Intl. Symp. of Robotics Research (ISRR)"}
+@string{icar  = "IEEE Intl. Conf. on Advanced Robotics (ICAR)"}
+@string{emav  = "European Micro Aerial Vehicle Conference"}
+@string{bmvc  = "British Machine Vision Conf. (BMVC)"}
+@string{oceans= "Proc. of the IEEE/MTS OCEANS Conf. and Exhibition"}
+@string{uust  = "Proc. Int. Symp. on Unmanned Untethered Submersible Technology"}
+@string{accv  = "Asian Conf. on Computer Vision (ACCV)"}
+@string{icpr  = "Intl. Conf. on Pattern Recognition (ICPR)"}
+@string{ecmr = "European Conference on Mobile Robotics (ECMR)"}
+@string{icaps = "Proc. of Intl. Conf. on Automated Planning and Scheduling"}
+@string{robio = "IEEE Intl. Conf. on Robotics and Biomimetics"}
+@string{ut = "Proc. of Int. Symp. of Underwater Technology"}
+@string{cca = "IEEE Intl. Conf. on Control Applications"}
+@string{pedes = "IEEE Intl. Conf. on Power Electronics, Drives and Energy Systems Conference"}
+
+% workshops
+@string{iser  = "Intl. Sym. on Experimental Robotics (ISER)"}
+@string{ismar = "IEEE and ACM Intl. Sym. on Mixed and Augmented Reality (ISMAR)"}
+
+% publishers
+@string{mit   = "The MIT Press, Cambridge, MA"}
+
+@inproceedings{baikovitz2021gpr,
+  keywords  = {conf},
+  title     = {Ground Encoding: Learned Factor Graph-based Models for Localizing Ground Penetrating Radar},
+  author    = {Baikovitz, Alex and Sodhi, Paloma and Dille, Michael and Kaess, Michael},
+  booktitle = iros,
+  year      = {2021},
+  pages     = {\textbf{Best conference paper finalist (0.4\% of accepted papers)}},
+  pdf       = {https://arxiv.org/abs/2103.15317},
+  video     = {https://youtu.be/HXXgdTJzqyw}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{ho2018virtual,
+  keywords  = {conf},
+  title     = {Virtual Occupancy Grid Map for Submap-based Pose Graph {SLAM} and Planning in {3D} Environments},
+  author    = {Ho, Bing-Jui and Sodhi, Paloma and Teixeira, Pedro V. and Hsiao, Ming and Kusnur, Tushar and Kaess, Michael},
+  booktitle = iros,
+  year      = {2018},
+  pdf       = {https://www.cs.cmu.edu/%7ekaess/pub/Ho18iros.pdf}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@article{kapoor2012adaptive,
+  keywords = {conf},
+  title    = {Adaptive Failure Compensation of a Single Main-Rotor Helicopter},
+  author   = {Kapoor, Dhruv and Sodhi, Paloma and Deb, Dipankar},
+  journal  = {IFAC Proceedings Volumes},
+  year     = {2012}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{kapoor2012novel,
+  keywords  = {conf},
+  title     = {A novel control strategy to simulate solar panels},
+  author    = {Kapoor, Dhruv and Sodhi, Paloma and Deb, Dipankar},
+  booktitle = {Intl. Conf. on Signal Processing and Communications (SPCOM)},
+  year      = {2012}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{kapoor2012solar,
+  keywords  = {conf},
+  title     = {Solar panel simulation using adaptive control},
+  author    = {Kapoor, Dhruv and Sodhi, Paloma and Deb, Dipankar},
+  booktitle = cca,
+  year      = {2012},
+  pdf       = {https://psodhi.github.io/assets/pdf/kapoor2012cca.pdf}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{pineda2022theseus,
+  keywords  = {conf},
+  title={{T}heseus: {A} library for differentiable nonlinear optimization},
+  author={Pineda, Luis and Fan, Taosha and Monge, Maurizio and Venkataraman, Shobha and Sodhi, Paloma and Chen, Ricky and Ortiz, Joseph and DeTone, Daniel and Wang, Austin and Anderson, Stuart and others},
+  booktitle = neurips,
+  year={2022},
+  pdf={https://arxiv.org/pdf/2207.09442.pdf},
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@inproceedings{sodhi2012enhanced,
+  keywords  = {conf},
+  title     = {An enhanced MPPT strategy for a grid-connected PV station under rapidly varying environmental conditions},
+  author    = {Sodhi, Paloma and Kapoor, Dhruv and Illindala, Mahesh},
+  booktitle = pedes,
+  year      = {2012}
+}
+
+@article{sodhi2014adaptive,
+  keywords = {conf},
+  title    = {Adaptive backstepping control for a twin rotor {MIMO} system},
+  author   = {Sodhi, Paloma and Kar, Indrani},
+  journal  = {IFAC Proceedings Volumes},
+  year     = {2014},
+  pdf      = {https://psodhi.github.io/assets/pdf/sodhi2014acods.pdf}
+}
+
+@inproceedings{sodhi2017field,
+  keywords  = {conf},
+  title     = {In-field segmentation and identification of plant structures using 3D imaging},
+  author    = {Sodhi, Paloma and Vijayarangan, Srinivasan and Wettergreen, David},
+  booktitle = iros,
+  year      = {2017},
+  pages     = {\textbf{Best application paper finalist (0.25\% of accepted papers)}},
+  pdf       = {https://psodhi.github.io/assets/pdf/sodhi2017iros.pdf}
+}
+
+@inproceedings{sodhi2018robust,
+  keywords  = {conf},
+  title     = {Robust Plant Phenotyping via Model-Based Optimization},
+  author    = {Sodhi, Paloma and Sun, Hanqi and P{\'o}czos, Barnabas and Wettergreen, David},
+  booktitle = iros,
+  year      = {2018},
+  pdf       = {https://psodhi.github.io/assets/pdf/sodhi2018iros.pdf}
+}
+
+@inproceedings{sodhi2019online,
+  keywords  = {conf},
+  title     = {Online and Consistent Occupancy Grid Mapping for Planning in Unknown Environments},
+  author    = {Sodhi, Paloma and Ho, Bing-Jui and Kaess, Michael},
+  booktitle = iros,
+  year      = {2019},
+  pdf       = {https://www.cs.cmu.edu/%7ekaess/pub/Sodhi19iros.pdf}
+}
+
+@inproceedings{sodhi2020ics,
+  keywords  = {conf},
+  title     = {ICS: Incremental Constrained Smoothing for State Estimation},
+  author    = {Sodhi, Paloma and Choudhury, Sanjiban and Mangelson, Joshua and Kaess, Michael},
+  booktitle = icra,
+  year      = {2020},
+  pdf       = {https://psodhi.github.io/assets/pdf/sodhi20icra.pdf},
+  video     = {https://youtu.be/eLdbnO7ae6Y}
+}
+
+@inproceedings{sodhi2021leo,
+  keywords  = {conf},
+  title     = {{LEO}: Learning Energy-based Models in Factor Graph Optimization},
+  author    = {Sodhi, Paloma and Dexheimer, Eric and Mukadam, Mustafa and Anderson, Stuart and Kaess, Michael},
+  booktitle = corl,
+  year      = {2021},
+  pdf       = {https://arxiv.org/abs/2108.02274},
+  video     = {https://youtu.be/YqzlUPudfkA},
+  code      = {https://github.com/rpl-cmu/leo},
+  selected  = {false}
+}
+
+@inproceedings{sodhi2021tactile,
+  keywords  = {conf},
+  title     = {Learning Tactile Models for Factor Graph-based Estimation},
+  author    = {Sodhi, Paloma and Kaess, Michael and Mukadam, Mustafa and Anderson, Stuart},
+  booktitle = icra,
+  year      = {2021},
+  pdf       = {https://arxiv.org/abs/2012.03768},
+  video     = {https://youtu.be/y1kBfSmi8w0},
+  code      = {https://github.com/psodhi/tactile-pushing}
+}
+
+@inproceedings{sodhi2022inhand,
+  keywords  = {conf},
+  title     = {{PatchGraph}: In-hand tactile tracking with learned surface normals},
+  author    = {Sodhi, Paloma and Kaess, Michael and Mukadam, Mustafa and Anderson, Stuart},
+  booktitle = icra,
+  year      = {2022},
+  pdf       = {https://arxiv.org/abs/2111.07524},
+  video     = {https://youtu.be/JwNTC9_nh8M},
+  code      = {https://github.com/psodhi/tactile-in-hand}
+}
+
+@article{sodhi2023heap,
+  title={HeaP: Hierarchical Policies for Web Actions using LLMs},
+  author={Sodhi, Paloma and Branavan, SRK and McDonald, Ryan},
+  journal={arXiv preprint arXiv:2310.03720},
+  year={2023},
+  pdf       = {https://arxiv.org/abs/2310.03720},
+  code      = {https://github.com/asappresearch/webactions-lm},
+  selected  = {true}
+}
+
+@inproceedings{sodhi2023offlinerl,
+  title={On the effectiveness of offline RL for dialogue response generation},
+  author={Sodhi, Paloma and Wu, Felix and Elenberg, Ethan R and Weinberger, Kilian Q and McDonald, Ryan},
+  booktitle=icml,
+  year={2023},
+  organization={PMLR},
+  pdf       = {https://arxiv.org/abs/2307.12425},
+  code      = {https://github.com/asappresearch/dialogue-offline-rl},
+  selected  = {true}
+}
+
+@article{min2023workflow,
+  title={Workflow-Guided Response Generation for Task-Oriented Dialogue},
+  author={Min, Do June and Sodhi, Paloma and Ramakrishnan, Ramya},
+  journal={arXiv preprint arXiv:2311.08300},
+  year={2023},
+  pdf       = {https://arxiv.org/abs/2111.07524},
+  selected  = {false}
+}
+
+@inproceedings{suresh2020active,
+  keywords  = {conf},
+  title     = {Active SLAM using 3D Submap Saliency for Underwater Volumetric Exploration},
+  author    = {Suresh, Sudharshan and Sodhi, Paloma and Mangelson, Joshua and Wettergreen, David and Kaess, Michael},
+  booktitle = icra,
+  year      = {2020},
+  pdf       = {https://www.cs.cmu.edu/%7ekaess/pub/Suresh20icra.pdf}
+}
+
+@inproceedings{vijayarangan2018high,
+  keywords  = {conf},
+  title     = {High-throughput robotic phenotyping of energy sorghum crops},
+  author    = {Vijayarangan, Srinivasan and Sodhi, Paloma and Kini, Prath and Bourne, James and Du, Simon and Sun, Hanqi and P{\'o}czos, Barnabas and Apostolopoulos, Dimi and Wettergreen, David},
+  booktitle = fsr,
+  year      = {2018},
+  pdf       = {https://psodhi.github.io/assets/pdf/vijayarangan2018fsr.pdf}
+}
+
+@inproceedings{qadri22iros,
+  title = {{InCOpt}: Incremental Constrained Optimization using the {B}ayes Tree},
+  keywords  = {conf},
+  author = {Qadri, Mohamad and Sodhi, Paloma and Mangelson, Joshua and Dellaert, Frank and Kaess, Michael},
+  booktitle = iros,
+  year = {2022},
+  pdf = {https://www.cs.cmu.edu/%7ekaess/pub/Qadri22iros.pdf}
 }
