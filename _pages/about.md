@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello! I'm a Research Scientist at [ASAPP](https://www.asapp.com/ai-research/), developing ML and NLP methods for dialog agents that act. My research focuses on LLM agents, reinforcement learning for dialog, and alignment using AI feedback.
+Hello! I'm a Research Scientist at [ASAPP](https://www.asapp.com/products/generativeagent/), developing ML and NLP methods for dialog agents that act. My research focuses on LLM agents, reinforcement learning for dialog, and alignment using AI feedback.
 
 In my current role, I work on building [LLM agent models](https://www.asapp.com/products/generativeagent) that both converse with customers and take actions, such as tool usage and UI interactions. I am excited about applications that help free up humans from mundane tasks, allowing them to be more creative and make better decisions.
 
