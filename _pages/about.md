@@ -15,8 +15,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello! I'm a Research Scientist at [ASAPP](https://www.asapp.com/products/generativeagent/), developing ML and NLP methods for dialog agents that act. My research focuses on LLM agents, reinforcement learning for dialog, and alignment using AI feedback.
+Hello! I'm a researcher at [OpenAI](https://openai.com/), where I work on building next-generation LLMs to be more capable and aligned with human intents. My focus areas include LLM agents, reinforcement learning, and alignment using AI feedback.
 
-In my current role, I work on building [LLM agent models](https://www.asapp.com/products/generativeagent) that both converse with customers and take actions, such as tool usage and UI interactions. I am excited about applications that help free up humans from mundane tasks, allowing them to be more creative and make better decisions.
+Previously, I was a researcher at [ASAPP](https://www.asapp.com/products/generativeagent/), where I helped develop customer service dialog chatbots that converse and take actions, such as interacting with external tools and user interfaces.
 
-Previously, I did my Ph.D. in Robotics at Carnegie Mellon University on combining machine learning with graph optimizers in the loop, where my research was generously supported by [Meta AI](https://ai.facebook.com/blog/facebook-ai-and-facebook-reality-labs-announce-research-and-mentorship-program-with-carnegie-mellon-university/) and [CMU Presidential Fellowship](https://www.cmu.edu/homepage/society/2014/spring/funding-the-best-and-the-brightest.shtml).
+Overall, I am excited about technologies that free up humans from mundane tasks, helping them be more creative and better decision makers. I did my Ph.D. in Robotics at [Carnegie Mellon University](https://www.cs.cmu.edu/) on combining machine learning with graph optimizers in the loop, with applications to robot manipulation.
