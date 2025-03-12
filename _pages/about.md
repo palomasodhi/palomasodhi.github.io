@@ -15,8 +15,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello! I'm a researcher at [OpenAI](https://openai.com/), where I work on building next-generation LLMs to be more capable and aligned with human intents. My focus areas include alignment and post-training, reinforcement learning, and LLM agents.
-
-Previously, I was a researcher at [ASAPP](https://www.asapp.com/products/generativeagent/), where I helped develop dialog chatbots that converse with customers and take actions, such as interacting with external tools and user interfaces.
+Hello! I'm a researcher at [OpenAI](https://openai.com/), where I work on building next-generation LLMs to be more capable and aligned with human intents. Previously, I was a researcher at [ASAPP](https://www.asapp.com/products/generativeagent/), where I was building dialog chatbots that converse and take actions, such as interacting with external tools and user interfaces.
 
 Overall, I am excited about technologies that free up humans from mundane tasks, helping them be more creative and better decision makers. I did my Ph.D. in Robotics at [Carnegie Mellon University](https://www.cs.cmu.edu/) on combining machine learning with graph optimizers in the loop, with applications to robot manipulation.
